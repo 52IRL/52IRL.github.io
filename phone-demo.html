@@ -29,14 +29,14 @@
       // This is the App ID from the dashboard that identifies this Calls Application.
       // https://dash.cloudflare.com/?to=/:account/calls
       // Note: Calls sessions are limited to interacting with sessions in the same App ID.
-      const APP_ID = "$APP_ID";
+      const 4e03911e03d5ff2e4830e379cbcf8ffb = "$4e03911e03d5ff2e4830e379cbcf8ffb";
       // ❗❗❗ DO NOT USE YOUR TOKEN IN THE BROWSER FOR PRODUCTION. It should be kept and used server-side.
-      const APP_TOKEN = "$APP_TOKEN";
+      const b623fc95239b3ba3d2b3a897a8c1c7ac18d1741ed332de0aa5d37231fa94a4a6 = "$b623fc95239b3ba3d2b3a897a8c1c7ac18d1741ed332de0aa5d37231fa94a4a6";
       // We'll use this for authentication when making requests to the Calls API.
       const headers = {
-        Authorization: `Bearer ${APP_TOKEN}`,
+        Authorization: `Bearer ${b623fc95239b3ba3d2b3a897a8c1c7ac18d1741ed332de0aa5d37231fa94a4a6}`,
       };
-      const API_BASE = `https://rtc.live.cloudflare.com/v1/apps/${APP_ID}`;
+      const API_BASE = `https://rtc.live.cloudflare.com/v1/apps/${4e03911e03d5ff2e4830e379cbcf8ffb}`;
       const localVideo = document.querySelector("video#local");
       const remoteVideo = document.querySelector("video#remote");
       if (
